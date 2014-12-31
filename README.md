@@ -7,6 +7,20 @@ to study how to build a container step by step
 To build a container you should know following things:
 
 * namespace
+
+    man 7 namespace
+
+A namespace wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource.  Changes to the global resource are visible to other processes that are members of the namespace, but are invisible to other processes.  One use of namespaces is to implement containers.
+  
+The releated systemcalls are not releated in go, so if you want to build a container, you need wrap the syscall youself.
+
+e.g setns, see src/go/system/setns_linux.go (copy from docker)
+
+References:
+* https://blog.jtlebi.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/
+* http://stackoverflow.com/questions/16977988/details-of-syscall-rawsyscall-syscall-syscall-in-go 
+* http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7b21fddd087678a70ad64afc0f632e0f1071b092
+  
   To be continued
 * cgroup
   To be continued
