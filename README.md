@@ -6,7 +6,7 @@ to study how to build a container step by step
 ## container basics
 To build a container you should know following things:
 
-* namespace
+### namespace
 
     man 7 namespace
 
@@ -22,9 +22,9 @@ References:
 * http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7b21fddd087678a70ad64afc0f632e0f1071b092
   
   To be continued
-* cgroup
+### cgroup
   To be continued
-I aufs
+### aufs
   To be continued
 
 ## network 
