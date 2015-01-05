@@ -52,7 +52,7 @@ Here is the key change:
 * http://permalink.gmane.org/gmane.linux.network/220770
 * http://lxr.free-electrons.com/source/include/linux/if_link.h
 
-There is a example code in the src named "getLinkList.c".It tested on 3.13.0-32-generic
+There is an example code in the src named "getLinkList.c".It tested on 3.13.0-32-generic
 
 
 
