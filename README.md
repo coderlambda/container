@@ -16,12 +16,15 @@ The releated systemcalls are not releated in go, so if you want to build a conta
 
 e.g setns, see src/go/system/setns_linux.go (copy from docker)
 
+or easily use the c function, see src/go/simplest_container.go
+
 References:
 * https://blog.jtlebi.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/
 * http://stackoverflow.com/questions/16977988/details-of-syscall-rawsyscall-syscall-syscall-in-go 
 * http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7b21fddd087678a70ad64afc0f632e0f1071b092
   
   To be continued
+
 
 ### cgroup
 
